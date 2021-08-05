@@ -525,7 +525,7 @@ class GoogleDriveHelper:
             Telegraph(access_token=telegraph_token).edit_page(path = self.path[prev_page],
                                  title = 'MOD MIRROR',
                                  author_name='MR.ANONYMOUS',
-                                 author_url='https://t.me/modrepos,
+                                 author_url='https://t.me/modrepos',
                                  html_content=content)
         return
 
