@@ -608,9 +608,9 @@ class GoogleDriveHelper:
 
             for content in self.telegraph_content :
                 self.path.append(Telegraph(access_token=telegraph_token).create_page(
-                                                        title = 'Thani Oruvan Mirror Bot Search',
-                                                        author_name='Thani Oruvan',
-                                                        author_url='https://t.me/Tamilcartoonstreet',
+                                                        title = 'Victim Search ',
+                                                        author_name='VictimSoilder,
+                                                        author_url='https://t.me/modrepos',
                                                         html_content=content
                                                         )['path'])
 
